@@ -94,12 +94,13 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![MongoDB][MongoDB.com]][MongoDB-url]
-* [![Express][Express.js]][Express-url]
+* [Express](https://expressjs.com)
 * [![React][React.js]][React-url]
 * [![Node][Node.js]][Node-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
+* [Docker](https://www.docker.com/)
+* [MongoDB](https://www.mongodb.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
