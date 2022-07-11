@@ -149,14 +149,28 @@ Withdraw - allows you to withdraw money from your account <br />
 Balance - displays account balance <br />
 AllData - for the admin users of the bank - will show all data of all the users of the application <br />
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
+
+Front end modifications
+
+API integration
+
+Better Authentication or using OAuth
+
+Alternative places to deploy the application
+
+Development of additional features:
+* Different roles for users (ex: bank employee, customer, etc.)
+* Transfer money between users
+* Integration with current apps
+* Checking vs Savings accounts
+* Additional user profiles
+- [ ] Check deposit by taking a picture of the check
 
 - [ ] Feature 1
 - [ ] Feature 2
