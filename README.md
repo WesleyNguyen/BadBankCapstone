@@ -66,10 +66,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-
 "Bad Bank" is my MIT capstone application with a front-end, back-end, and database. It is called Bad Bank, because it is a reference to a previous project, which was a banking application that was not secure (ex: no login, no administrative privileges, etc.). However, I now use the entire MERN stack to better simulate a more proper banking application. This project was created to learn how to build a complete 3-tier application. It is also designed to be an easy way to show off things I've learned in my MIT xPro Professional Certificate in Coding: Full Stack Development with MERN program.
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
