@@ -109,32 +109,32 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+
 * npm
   ```sh
   npm install npm@latest -g
   ```
 
 ### Installation
+To edit and run locally on your machine
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/WesleyNguyen/BadBankCapstone.git
    ```
-3. Install NPM packages
+2. Install NPM packages (the versions I was running: NPM (8.7.0), NVM (0.39.1), Node (v14.9.1), though the latest versions should work
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Run the Node server
+   ```sh
+   node index.js
    ```
+4. Navigate to [http://localhost:3000/](http://localhost:3000/) to run the application
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -142,8 +142,12 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Create Account - allows you to create a new users for the bank (you can see the users you've created in the AllData tab) <br />
+Login - allows you to login to your bank account <br />
+Deposit - allows you to deposit money into your account <br />
+Withdraw - allows you to withdraw money from your account <br />
+Balance - displays account balance <br />
+AllData - for the admin users of the bank - will show all data of all the users of the application <br />
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
