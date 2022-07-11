@@ -170,14 +170,7 @@ Development of additional features:
 * Integration with current apps
 * Checking vs Savings accounts
 * Additional user profiles
-- [ ] Check deposit by taking a picture of the check
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+* Check deposit by taking a picture of the check
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -213,7 +206,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Wesley Nguyen - [LinkedIn](https://www.linkedin.com/in/wesley-nguyen) - wesley.vy.nguyen@gmail.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
@@ -224,7 +217,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
+* [Readme Template Credit: Othneil Drew](https://github.com/othneildrew/Best-README-Template)
 * []()
 * []()
 
