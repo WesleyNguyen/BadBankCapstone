@@ -122,11 +122,11 @@ To edit and run locally on your machine
 
 <!-- USAGE EXAMPLES -->
 ## Usage
--[] Create Account - allows you to create a new user for the bank<br />
--[] Login - allows you to login to your bank account <br />
--[] Deposit - allows you to deposit money into your account <br />
--[] Withdraw - allows you to withdraw money from your account <br />
--[] AllData - allows you to see all data of all the users of the application <br />
+- [ ] Create Account - allows you to create a new user for the bank<br />
+- [ ] Login - allows you to login to your bank account <br />
+- [ ] Deposit - allows you to deposit money into your account <br />
+- [ ] Withdraw - allows you to withdraw money from your account <br />
+- [ ] AllData - allows you to see all data of all the users of the application <br />
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
