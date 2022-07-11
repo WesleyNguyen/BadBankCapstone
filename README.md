@@ -94,11 +94,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Express](https://expressjs.com)
 * [![React][React.js]][React-url]
-* [![Node][Node.js]][Node-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
+* [Express](https://expressjs.com)
+* [Node](https://nodejs.org/en/)
 * [Docker](https://www.docker.com/)
 * [MongoDB](https://www.mongodb.com/)
 
