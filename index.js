@@ -1,84 +1,47 @@
-var express = require('express');
-var app     = express();
-var cors    = require('cors');
-var dal     = require('./dal.js');
+const UserContext = React.createContext(null);
+const DatabaseContext = React.createContext(null);
 
-//  used to serve static files from public directory
-app.use(express.static('public'));
-app.use(cors());
+//import { useState } from 'react';
+// import Login from './components/Login';
+// import Logout from './components/Logout';
 
-//  create user account (this was a placeholder one from before we attempted to add a database)
-// app.get('/account/create/:name/:email/:password', function (req, res) {
-//     res.send({
-//         name:       req.params.name,
-//         email:      req.params.email,
-//         password:   req.params.password
-//     });
-// });
+// function setBalance(number){
+//   const balance = 100 + number;
+//   return balance;
+// }
 
-// create user account using dal
-app.get('/account/create/:name/:email/:password', function (req, res) {
-    // else create user
-    dal.create(req.params.name,req.params.email,req.params.password).
-        then((user) =>{
-            console.log(user);
-            res.send(user);
-        });
-});
+function Spa() {
+  // const [users, setUsers] = React.useState([{name: 'abel', email: 'abel@mit.edu', password: 'secret', balance: 100}]);
+  const [users, setUsers] = React.useState([{name: '', email: '', password: '', balance: 0}]);
+  const [database, setDatabase] = React.useState([{name: '', email: '', password: '', balance: 0}]);
+  
+  return (
+    <HashRouter>
+      <NavBar/>
+      {/* <UserContext.Provider value={{users:[{name:'abel',email:'abel@mit.edu',password:'secret',balance: 100, setBalance}]}}> */}
+      <UserContext.Provider value={{data: users, updateUsers: setUsers}}>
+      {/* <UserContext.Provider value={{name:'abel',email:'abel@mit.edu',password:'secret',balance:"100"}}> */}
+        <div className="container" style={{padding: "20px"}}>
+          <Route path="/" exact component={Home} />
+          <Route path="/CreateAccount/" component={CreateAccount} />
+          <Route path="/login/" component={Login} />
+          <Route path="/deposit/" component={Deposit} />
+          <Route path="/withdraw/" component={Withdraw} />
+          <Route path="/balance/" component={Balance} />
+          {/* <Route path="/alldata/" component={AllData} /> 
+            //Moved this path to DatabaseContext.Provider*/}
+        </div>
+      </UserContext.Provider>
+      <DatabaseContext.Provider value={{data: database, updateUsers: setDatabase}}>
+        <div className="container" style={{padding: "20px"}}>
+          <Route path="/alldata/" component={AllData} />
+        </div>
+      </DatabaseContext.Provider>
+    </HashRouter>
+  );
+}
 
-//  login user dal
-app.get('/account/login/:email/:password', function (req, res) {
-    dal.login(req.params.email, req.params.password).
-        then((user) => {
-            console.log(user);
-            res.send(user);
-        });
-});
-
-// deposit into user account
-app.get('/account/deposit/:email/:balance', function (req, res) {
-    dal.deposit(req.params.email,req.params.balance).
-        then((user) => {
-            console.log(user);
-            res.send(user);
-        });    
-});
-
-// withdraw into user account
-app.get('/account/withdraw/:email/:balance', function (req, res) {
-    dal.withdraw(req.params.email,req.params.balance).
-        then((user) => {
-            console.log(user);
-            res.send(user);
-        });    
-});
-
-// all accounts using dal
-app.get('/account/all', function (req, res) {
-    dal.all().
-        then((docs) => {
-            console.log(docs);
-            res.send(docs);
-        });
-});
-
-app.get('/account/find/:email', function (req, res) {
-    dal.find(req.params.email).
-        then((docs) => {
-        console.log(docs);
-        res.send(docs);
-    });
-});
-
-//  all accounts (placeholder)
-// app.get('/account/all', function (req, res) {
-//     res.send({
-//         name:       'peter',
-//         email:      'peter@mit.edu',
-//         password:   'secret'
-//     });
-// });
-
-var port = 3000;
-app.listen(port);
-console.log('Running on port: ' + port);
+ReactDOM.render(
+  <Spa/>,
+  document.getElementById('root')
+);
