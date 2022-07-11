@@ -206,9 +206,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Wesley Nguyen - [LinkedIn](https://www.linkedin.com/in/wesley-nguyen) - wesley.vy.nguyen@gmail.com
+Wesley Nguyen - [https://www.linkedin.com/in/wesley-nguyen](https://www.linkedin.com/in/wesley-nguyen-a2136114a/) - wesley.vy.nguyen@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/WesleyNguyen/BadBankCapstone/](https://github.com/WesleyNguyen/BadBankCapstone/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
