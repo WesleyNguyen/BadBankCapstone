@@ -97,10 +97,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [![React][React.js]][React-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
+* [MongoDB](https://www.mongodb.com/)
 * [Express](https://expressjs.com)
 * [Node](https://nodejs.org/en/)
 * [Docker](https://www.docker.com/)
-* [MongoDB](https://www.mongodb.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
