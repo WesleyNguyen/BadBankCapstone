@@ -142,12 +142,11 @@ To edit and run locally on your machine
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-Create Account - allows you to create a new users for the bank (you can see the users you've created in the AllData tab) <br />
-Login - allows you to login to your bank account <br />
-Deposit - allows you to deposit money into your account <br />
-Withdraw - allows you to withdraw money from your account <br />
-Balance - displays account balance <br />
-AllData - for the admin users of the bank - will show all data of all the users of the application <br />
+-[] Create Account - allows you to create a new user for the bank<br />
+-[] Login - allows you to login to your bank account <br />
+-[] Deposit - allows you to deposit money into your account <br />
+-[] Withdraw - allows you to withdraw money from your account <br />
+-[] AllData - allows you to see all data of all the users of the application <br />
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -218,8 +217,6 @@ Project Link: [https://github.com/WesleyNguyen/BadBankCapstone/](https://github.
 ## Acknowledgments
 
 * [Readme Template Credit: Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-* []()
-* []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
