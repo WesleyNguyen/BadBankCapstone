@@ -118,6 +118,8 @@ To edit and run locally on your machine
    ```
 4. Navigate to [http://localhost:3000/](http://localhost:3000/) to run the application
 
+(Note: You may need to run $ docker run -p 27017:27017 —name badbank -d mongo)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
